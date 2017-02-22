@@ -1,0 +1,285 @@
+@font-face {
+    font-family: League;
+    src: url("fonts/leaguegothic-regular-webfont.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Montse';
+    src: url("fonts/Montserrat-Regular.ttf") format('truetype');
+}
+#bodi{
+    
+        width: 100%;
+        height: 100%;
+    overflow: scroll;
+    height: 100vh;
+    display: block;
+    position: relative;
+    width: 100vw;
+
+}
+body
+{
+	margin: 0;
+	padding: 0px;
+        background: #030404;
+        color:#fff;
+                font-family: Montse;
+                font-weight: bold;
+
+
+        width: 100%;
+        height: 100%;
+	
+	text-transform: uppercase;
+	height: 100vh;
+}
+span.btncomi:hover {
+    color: #40BEBD;
+}
+.slideme {
+max-width: 100%;
+max-height: 100%;
+width: 100%;
+height: 100%;
+}
+.slideme img {
+max-width: 100%;
+
+width: 100%;
+
+}
+img{
+    width:  100%;
+}
+
+.justifiedtext{
+        padding: 100px;
+        text-align: justify;
+        font-size: 31px;
+        color: #ccc;
+}
+.gry{
+    background: #18191a;
+        height: 513px;
+  
+}
+.gry img{
+    width: auto;
+    margin:auto;
+    position: relative;
+    display: block;
+    top: 23%;
+    height: 50%;
+}
+.imgleft img{
+    height: 515px;
+    
+    width: auto;
+}
+.green{
+    background: #41BFBE;
+    width: 100%;
+     
+    height: 600px;
+}
+.green img{
+   width: 518px;
+    margin:auto;
+    position: relative;
+    display: block;
+    
+   top: 17%;
+   width: 82%;
+}
+.black{
+    background: #000;
+    width: 50%;
+     
+    position: absolute;
+    display: block;
+    height: 100%;
+    right: 0px;
+}
+.black img{
+   
+    width: 280px;
+    margin:auto;
+    position:relative;
+    display: block;
+    
+    top: 158px;
+}
+.video{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+}
+.c4{
+    width: 40%;
+        float:left;
+}
+.c6{
+    width: 60%;
+    float:left;
+    display: block;
+    position: absolute;
+    height: 100%;
+    right: 0px;
+}
+.bggris{
+    background: #18191a;
+    position: relative;
+}
+.overlay{
+    background: #e4485e;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 99.3%;
+    z-index: 1;
+}
+.overlay img{
+    width: 100px;
+    
+    
+    position: relative;
+    z-index: 10000;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}.gray{
+    background: #2F2E30;
+    top: -5px;
+}
+.green{
+    background: #40BEBD;
+}
+.negro{
+    background: #050606;
+}
+.txt1{
+   text-align: center;
+    height: 180px;
+    font-size: 21px;
+    padding: 97px;
+    line-height: 180px;
+}
+.clickable{
+    cursor:pointer;
+}
+.txt1 h1{
+   font-size: 60px
+       
+;
+   top: 39px;
+   position: relative;
+}
+.btnlargeblack{
+    background: rgba(3, 4, 4, 0.5);
+    
+    width: 80%;
+    display: block;
+    height: 50px;
+    bottom: 23px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    left: 10%;
+    opacity: 0.8;
+}
+.redes{
+    width: 110px;
+    
+    margin: auto;
+    top: 78px;
+    position: relative;
+}
+.redes img{
+    width: auto;
+    height: 45px;
+    margin: auto;
+}
+.tred{
+    color:#e4485e;
+}
+.tgreen{
+    color:#40BEBD;
+}
+.verde{
+    background: #41BFBE;
+    
+    top: -5px;
+}
+.tstcel{
+    width: auto;
+    margin: auto;
+    position: relative;
+    display: block;
+    height: 50%;
+    margin-top: 26%;
+}
+.h100{
+    height: 500px;
+    width: auto;
+    height: 50vh;
+}
+.centerh{
+    height: 100%;
+    
+    line-height: 100%;
+    display: block;
+}
+.btncomi{
+    position: relative;
+    
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    opacity: 9.7;
+    COLOR: white;
+    top: 24px;
+    z-index: 122;
+    font-size: 17px;
+    letter-spacing: 7px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 2vw;
+}
+.fin{
+    height: 500px; 
+    top: -5px;
+}
+.fin .col-md-6{
+    height: 250px;
+}
+.fin .face{
+    width: 50px;
+}
+.liga{
+    font-size: 4vw;
+    
+    letter-spacing: 3vw;
+    text-align: center;
+    padding-top: 89px;
+}
+.menu{
+    height: 107px;
+    width: 100%;
+    position:fixed;
+    top:0px;
+    z-index: 1000;
+    background-color: rgba(0,0,0,.5);
+}
+.prer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 402px;
+    margin-top: -250px;
+    margin-left: -356px;
+}
