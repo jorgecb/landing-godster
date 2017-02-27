@@ -286,11 +286,47 @@ img{
 .input-group{
         width: 80%;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input-group input{
+       height: 25px;
 }
 .modal-content{
+  text-align: center;
+    padding: 10px 96px;
+}
+.modal-body p{
+        font-size: 13px;
+    letter-spacing:3px;
+}
+.input-group span{
+    background: #40BFBD;
+    padding: 13px 36px;
+}
+.input-group input{
+   border: 1px solid #40BFBD;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    width: 92%;
+    border-radius: 0px;
+    color: #fff;
+    padding-right: 0px;
+}
+.modal-title{
+    color:#40BFBD;
+    letter-spacing: 37px;
+    
+}
+.close{
+    visibility: hidden;
+}
+.foot{
+    height: 50px;   
+    width: 100px;
+}
+.modal-footer{
     text-align: center;
-    
-    
 }
