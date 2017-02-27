@@ -10,11 +10,39 @@
 
     </head>
     <body >
+        
+        <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">CONTACT</h4>
+      </div>
+      <div class="modal-body">
+       <p>GODSTER TEAM WILL BE IN OTUCH WITH YOU FOR FURTHER INFORMATION</p>
+       <div class="input-group">
+        <input type="text" class="form-control" placeholder="Recipient's username" PLACEHOLDER="E-MAIL" aria-describedby="basic-addon2">
+        <span class="input-group-addon" id="basic-addon2">SEND</span>
+      </div>
+         <p>THABK YOU!<BR>THE BEST NEW APP ITS ALMOST HERE</p>
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+        </div>
+        
+        
         <img src="img/Logo_login.png" class="prer" />
         <div id="bodi"  class="" style="visibility: collapse">
         <div class="row menu">
             <div class="col-md-12">
-                <span class="btncomi btnsend">START USING GODSTER NOW! </span>
+                <span class="btncomi btnsend"  data-toggle="modal" data-target="#myModal">Coming Soon! Register for release date
+</span>
             </div>
         </div>
         <div class="row">
@@ -130,12 +158,13 @@
 
         </div>
         <div class="col-md-12  btnsend liga">
-            GODSTER.MX
+            GODSTER.COM
         </div>
     </div>
 </div>
 <!-- /#page-wrapper -->
 <script src="lib/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="lib/carrousel.js" type="text/javascript"></script>
 <script src="lib/mdr.js" type="text/javascript"></script>
 <script src="js/landin.js" type="text/javascript"></script>

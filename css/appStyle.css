@@ -283,3 +283,14 @@ img{
     margin-top: -250px;
     margin-left: -356px;
 }
+.input-group{
+        width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modal-content{
+    text-align: center;
+    
+    
+}

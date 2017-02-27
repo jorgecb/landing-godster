@@ -21,7 +21,7 @@ if (typeof storage.session != "undefined") {
     var session = JSON.parse(storage.session);
     if (session.isloged == true)
     {
-        location.href = "http://godster.mx:9090/godster/";
+        location.href = "http://GODSTER.COM:9090/godster/";
 
     }
 
@@ -60,9 +60,7 @@ $(document).ready(function () {
         }
     });
 
-    $(".btnsend").click(function () {
-        location.href = "http://godster.mx:9090/godster/";
-    });
+   
 
     $('#playvideo').click(function () {
         $('#sinl').hide();
