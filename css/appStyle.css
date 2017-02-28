@@ -301,8 +301,9 @@ img{
     letter-spacing:3px;
 }
 .input-group span{
-    background: #40BFBD;
+       background: #40BFBD;
     padding: 13px 36px;
+    cursor: pointer;
 }
 .input-group input{
    border: 1px solid #40BFBD;
